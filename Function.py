@@ -23,7 +23,7 @@ print G.capitalize()
 print P.swapcase()
 
 #Counts the no. of Uppercase and lowercase letters upon an inputted words
-def counter():
+def count():
     a = P
     d = {"UPPER CASE" : 0, "LOWER CASE": 0,"SPACE": 0}
     for c in a:
@@ -36,6 +36,6 @@ def counter():
 
     print " NO. of UPPERCASE LETTERS is ", d["UPPER CASE"]
     print " NO. of lowercase letters is ", d["LOWER CASE"]
-    return counter()
+    return count()
 
-counter()
+count()
